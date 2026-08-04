@@ -1,24 +1,23 @@
 # Capstone Project
 
-> One-line pitch: what this project does and who it's for.
+> Frontend AI Engineering — a React-based interface for interacting with an LLM (Anthropic API), built with an AI-assisted development workflow.
 
 ## Status
 🚧 In progress — Phase: Setup
 
 ## Overview
 
-_Describe the problem this project solves and the core idea in 2-3 sentences._
+This project explores frontend AI engineering: building a polished, responsive UI that integrates directly with the Anthropic API. The AI assistant (Claude Code) is used throughout development for scaffolding, review, and iteration.
 
 ## Tech Stack
 
-- **Language:** TBD
-- **Framework:** TBD
-- **Database:** TBD
-- **Deployment:** TBD
+- **Language:** TypeScript
+- **Framework:** React (Vite)
+- **Styling:** Tailwind CSS
+- **Database:** None — stateless, calls the Anthropic API via a thin backend proxy
+- **Deployment:** Vercel
 
 ## Getting Started
-
-**Prerequisites:** Node.js (LTS) and Git installed locally.
 
 ```bash
 # clone
@@ -26,22 +25,19 @@ git clone <repo-url>
 cd <repo-name>
 
 # install
-<install command>   # TODO: fill in once stack is finalized
+npm install
 
 # run
-<run command>        # TODO: fill in once stack is finalized
+npm run dev
 ```
 
 ## Project Structure
 
-```
 .
-├── src/            # application source
+├── src/ # application source
 ├── README.md
-├── CLAUDE.md        # AI assistant conventions
+├── CLAUDE.md # AI assistant conventions
 └── .gitignore
-```
-
 ## Roadmap
 
 - [ ] Define architecture
