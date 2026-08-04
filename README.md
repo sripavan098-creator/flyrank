@@ -18,16 +18,18 @@ _Describe the problem this project solves and the core idea in 2-3 sentences._
 
 ## Getting Started
 
+**Prerequisites:** Node.js (LTS) and Git installed locally.
+
 ```bash
 # clone
 git clone <repo-url>
 cd <repo-name>
 
 # install
-<install command>
+<install command>   # TODO: fill in once stack is finalized
 
 # run
-<run command>
+<run command>        # TODO: fill in once stack is finalized
 ```
 
 ## Project Structure
