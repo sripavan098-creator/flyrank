@@ -46,3 +46,11 @@ npm run test
 # lint
 npm run lint
 ```
+
+## Project-specific development rules
+
+- Inspect relevant project files before editing, and preserve unrelated user changes.
+- Validate required fields and email formats; show clear, accessible feedback for invalid input and successful actions.
+- Keep settings controls accessible with meaningful labels, native semantics, visible focus states, and keyboard support.
+- Do not claim settings are saved to a server when they are only stored in client-side state; describe persistence accurately.
+- Before finishing, run the available tests, lint, and production build, and report any checks that could not be completed.
