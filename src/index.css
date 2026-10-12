@@ -1,1 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #18342d;
+  background: #f4f7f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --ink: #18342d;
+  --muted: #82918b;
+  --border: #e5ebe7;
+  --paper: #ffffff;
+  --canvas: #f4f7f5;
+  --forest: #15342d;
+  --forest-light: #244b41;
+  --lime: #c4ef75;
+  --teal: #218e76;
+  --coral: #ef8c74;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+a,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  color: var(--forest);
+  background: var(--lime);
+}
